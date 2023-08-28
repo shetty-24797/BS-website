@@ -1,0 +1,113 @@
+
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+  background-color: black;
+}
+
+
+.App-header {
+  background-color: black;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.contact-card {
+  background-color: blue;
+  display : flex;
+  justify-content : 'space-evenly';
+  padding-top: 30px;
+}
+
+.click:hover {
+  color: palegreen;
+}
+
+.click{
+  color: white;
+}
+
+.navbar {
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin: 0;
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  border: 1px solid #555;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+}
+
+
+.animated-card {
+  padding: 16px;
+  margin: 16px;
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  border-radius: 8px;
+  
+}
+
+.animated-card:hover {
+  box-shadow: 4px 4px 8px palevioletred; 
+}
+
+
+.card-container{
+ 
+  display: flex;
+  justify-content: space-around;
+
+}
