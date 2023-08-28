@@ -16,11 +16,10 @@ root.render(
   <React.StrictMode>
     <Router>
            <Routes>
-               <Route exact path="/" element={<App />} />  
+               <Route exact path="/home" element={<App />} />  
                <Route path="/products" element={<Product />} />
            </Routes>
        </Router>
-    
   </React.StrictMode>
 );
 
